@@ -1,0 +1,30 @@
+/* Main title styles */
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+/* sub title style */
+header h4 {
+    font-size: 25px;
+}
+
+header {
+    background-color: cornflowerblue;
+    text-align: center;
+    color: whitesmoke;
+    height: 200px;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+img {
+    height: 500px;
+}
+
+/* styled links using pseudo-classes */
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: teal; }
+a:active  { color: purple;  }
